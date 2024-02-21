@@ -1,3 +1,27 @@
+Metadata-Version: 2.1
+Name: databaseautomation
+Version: 0.0.1
+Summary: A python package for connecting with database.
+Home-page: https://github.com/arpanchakraborty23/DatabaseConnceter
+Author: arpanchakraborty23
+Author-email: arpanchakraborty500@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/arpanchakraborty23/DatabaseConnceter/issues
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: ensure==1.0.2
+Requires-Dist: py-youtube==1.1.7
+Provides-Extra: testing
+Requires-Dist: pytest>=7.1.3; extra == "testing"
+Requires-Dist: mypy>=0.971; extra == "testing"
+Requires-Dist: flake8>=5.0.4; extra == "testing"
+Requires-Dist: tox>=3.25.1; extra == "testing"
+Requires-Dist: black>=22.8.0; extra == "testing"
+
 ## DatabaseConnecter package
 # requirements_dev.txt we use for the testing
 It makes it easier to install and manage dependencies for development and testing, separate from the dependencies required for production.
