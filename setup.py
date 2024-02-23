@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()     
    
 
-__version__ = "0.0.2"
+__version__ = "0.0.3"
 REPO_NAME = "DatabaseConnceter"
 PKG_NAME= "databaseautomation"
 AUTHOR_USER_NAME = "arpanchakraborty23"
