@@ -1,7 +1,0 @@
-action: python3.8, msg: getenv
-cwd: /home/ac/Desktop/MLOps/DatabaseConnecter/.tox
-cmd: /usr/bin/python3 -m virtualenv --no-download --python /usr/bin/python3 python3.8
-created virtual environment CPython3.8.10.final.0-64 in 842ms
-  creator CPython3Posix(dest=/home/ac/Desktop/MLOps/DatabaseConnecter/.tox/python3.8, clear=False, global=False)
-  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, pkg_resources=latest, via=copy, app_data_dir=/home/ac/.local/share/virtualenv/seed-app-data/v1.0.1.debian.1)
-  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
