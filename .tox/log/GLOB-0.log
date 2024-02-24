@@ -1,0 +1,50 @@
+action: GLOB, msg: packaging
+cwd: /home/ac/Desktop/MLOps/DatabaseConnecter
+cmd: /usr/bin/python3 setup.py sdist --formats=zip --dist-dir .tox/dist
+running sdist
+running egg_info
+writing src/databaseautomation.egg-info/PKG-INFO
+writing dependency_links to src/databaseautomation.egg-info/dependency_links.txt
+writing requirements to src/databaseautomation.egg-info/requires.txt
+writing top-level names to src/databaseautomation.egg-info/top_level.txt
+/usr/lib/python3.8/distutils/dist.py:274: UserWarning: Unknown distribution option: 'long_description_content'
+  warnings.warn(msg)
+warning: Failed to find the configured license file 'LICENSE'
+reading manifest file 'src/databaseautomation.egg-info/SOURCES.txt'
+writing manifest file 'src/databaseautomation.egg-info/SOURCES.txt'
+running check
+creating databaseautomation-0.0.3
+creating databaseautomation-0.0.3/src
+creating databaseautomation-0.0.3/src/databaseautomation.egg-info
+creating databaseautomation-0.0.3/src/mongodb_connect
+copying files to databaseautomation-0.0.3...
+copying README.md -> databaseautomation-0.0.3
+copying pyproject.toml -> databaseautomation-0.0.3
+copying setup.cfg -> databaseautomation-0.0.3
+copying setup.py -> databaseautomation-0.0.3
+copying src/databaseautomation.egg-info/PKG-INFO -> databaseautomation-0.0.3/src/databaseautomation.egg-info
+copying src/databaseautomation.egg-info/SOURCES.txt -> databaseautomation-0.0.3/src/databaseautomation.egg-info
+copying src/databaseautomation.egg-info/dependency_links.txt -> databaseautomation-0.0.3/src/databaseautomation.egg-info
+copying src/databaseautomation.egg-info/requires.txt -> databaseautomation-0.0.3/src/databaseautomation.egg-info
+copying src/databaseautomation.egg-info/top_level.txt -> databaseautomation-0.0.3/src/databaseautomation.egg-info
+copying src/mongodb_connect/__init__.py -> databaseautomation-0.0.3/src/mongodb_connect
+copying src/mongodb_connect/mongo_crud.py -> databaseautomation-0.0.3/src/mongodb_connect
+Writing databaseautomation-0.0.3/setup.cfg
+creating '.tox/dist/databaseautomation-0.0.3.zip' and adding 'databaseautomation-0.0.3' to it
+adding 'databaseautomation-0.0.3'
+adding 'databaseautomation-0.0.3/src'
+adding 'databaseautomation-0.0.3/PKG-INFO'
+adding 'databaseautomation-0.0.3/README.md'
+adding 'databaseautomation-0.0.3/setup.py'
+adding 'databaseautomation-0.0.3/setup.cfg'
+adding 'databaseautomation-0.0.3/pyproject.toml'
+adding 'databaseautomation-0.0.3/src/mongodb_connect'
+adding 'databaseautomation-0.0.3/src/databaseautomation.egg-info'
+adding 'databaseautomation-0.0.3/src/mongodb_connect/__init__.py'
+adding 'databaseautomation-0.0.3/src/mongodb_connect/mongo_crud.py'
+adding 'databaseautomation-0.0.3/src/databaseautomation.egg-info/top_level.txt'
+adding 'databaseautomation-0.0.3/src/databaseautomation.egg-info/PKG-INFO'
+adding 'databaseautomation-0.0.3/src/databaseautomation.egg-info/requires.txt'
+adding 'databaseautomation-0.0.3/src/databaseautomation.egg-info/dependency_links.txt'
+adding 'databaseautomation-0.0.3/src/databaseautomation.egg-info/SOURCES.txt'
+removing 'databaseautomation-0.0.3' (and everything under it)

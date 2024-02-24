@@ -1,0 +1,69 @@
+action: python3.9, msg: getenv
+cwd: /home/ac/Desktop/MLOps/DatabaseConnecter
+cmd: /home/ac/Desktop/MLOps/DatabaseConnecter/.tox/python3.9/bin/python -m pip install -rrequirements_dev.txt
+Collecting pymongo
+  Using cached pymongo-4.6.2-cp38-cp38-manylinux2014_x86_64.whl (716 kB)
+Collecting dnspython
+  Using cached dnspython-2.6.1-py3-none-any.whl (307 kB)
+Collecting pandas
+  Using cached pandas-2.0.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.4 MB)
+Collecting numpy
+  Using cached numpy-1.24.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.3 MB)
+Collecting ensure
+  Using cached ensure-1.0.4-py3-none-any.whl (15 kB)
+Collecting pytest==8.0.1
+  Using cached pytest-8.0.1-py3-none-any.whl (333 kB)
+Collecting tox==3.25.1
+  Using cached tox-3.25.1-py2.py3-none-any.whl (85 kB)
+Collecting black==22.8.0
+  Using cached black-22.8.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.5 MB)
+Collecting flake8==5.0.4
+  Using cached flake8-5.0.4-py2.py3-none-any.whl (61 kB)
+Collecting mypy==0.971
+  Using cached mypy-0.971-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (17.3 MB)
+Collecting tzdata>=2022.1
+  Using cached tzdata-2024.1-py2.py3-none-any.whl (345 kB)
+Collecting pytz>=2020.1
+  Using cached pytz-2024.1-py2.py3-none-any.whl (505 kB)
+Collecting python-dateutil>=2.8.2
+  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting six>=1.11.0
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting iniconfig
+  Using cached iniconfig-2.0.0-py3-none-any.whl (5.9 kB)
+Collecting pluggy<2.0,>=1.3.0
+  Using cached pluggy-1.4.0-py3-none-any.whl (20 kB)
+Collecting tomli>=1.0.0; python_version < "3.11"
+  Using cached tomli-2.0.1-py3-none-any.whl (12 kB)
+Collecting packaging
+  Using cached packaging-23.2-py3-none-any.whl (53 kB)
+Collecting exceptiongroup>=1.0.0rc8; python_version < "3.11"
+  Using cached exceptiongroup-1.2.0-py3-none-any.whl (16 kB)
+Collecting toml>=0.9.4
+  Using cached toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting filelock>=3.0.0
+  Using cached filelock-3.13.1-py3-none-any.whl (11 kB)
+Collecting virtualenv!=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7,>=16.0.0
+  Using cached virtualenv-20.25.1-py3-none-any.whl (3.8 MB)
+Collecting py>=1.4.17
+  Using cached py-1.11.0-py2.py3-none-any.whl (98 kB)
+Collecting mypy-extensions>=0.4.3
+  Using cached mypy_extensions-1.0.0-py3-none-any.whl (4.7 kB)
+Collecting typing-extensions>=3.10.0.0; python_version < "3.10"
+  Using cached typing_extensions-4.9.0-py3-none-any.whl (32 kB)
+Collecting platformdirs>=2
+  Using cached platformdirs-4.2.0-py3-none-any.whl (17 kB)
+Collecting click>=8.0.0
+  Using cached click-8.1.7-py3-none-any.whl (97 kB)
+Collecting pathspec>=0.9.0
+  Using cached pathspec-0.12.1-py3-none-any.whl (31 kB)
+Collecting mccabe<0.8.0,>=0.7.0
+  Using cached mccabe-0.7.0-py2.py3-none-any.whl (7.3 kB)
+Collecting pyflakes<2.6.0,>=2.5.0
+  Using cached pyflakes-2.5.0-py2.py3-none-any.whl (66 kB)
+Collecting pycodestyle<2.10.0,>=2.9.0
+  Using cached pycodestyle-2.9.1-py2.py3-none-any.whl (41 kB)
+Collecting distlib<1,>=0.3.7
+  Using cached distlib-0.3.8-py2.py3-none-any.whl (468 kB)
+Installing collected packages: dnspython, pymongo, tzdata, pytz, six, python-dateutil, numpy, pandas, ensure, iniconfig, pluggy, tomli, packaging, exceptiongroup, pytest, toml, filelock, platformdirs, distlib, virtualenv, py, tox, mypy-extensions, typing-extensions, click, pathspec, black, mccabe, pyflakes, pycodestyle, flake8, mypy
+Successfully installed black-22.8.0 click-8.1.7 distlib-0.3.8 dnspython-2.6.1 ensure-1.0.4 exceptiongroup-1.2.0 filelock-3.13.1 flake8-5.0.4 iniconfig-2.0.0 mccabe-0.7.0 mypy-0.971 mypy-extensions-1.0.0 numpy-1.24.4 packaging-23.2 pandas-2.0.3 pathspec-0.12.1 platformdirs-4.2.0 pluggy-1.4.0 py-1.11.0 pycodestyle-2.9.1 pyflakes-2.5.0 pymongo-4.6.2 pytest-8.0.1 python-dateutil-2.8.2 pytz-2024.1 six-1.16.0 toml-0.10.2 tomli-2.0.1 tox-3.25.1 typing-extensions-4.9.0 tzdata-2024.1 virtualenv-20.25.1

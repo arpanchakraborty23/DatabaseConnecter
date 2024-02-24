@@ -1,0 +1,27 @@
+action: python3.8, msg: installpkg
+cwd: /home/ac/Desktop/MLOps/DatabaseConnecter
+cmd: /home/ac/Desktop/MLOps/DatabaseConnecter/.tox/python3.8/bin/python -m pip install --exists-action w .tox/.tmp/package/1/databaseautomation-0.0.3.zip
+Processing ./.tox/.tmp/package/1/databaseautomation-0.0.3.zip
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+    Preparing wheel metadata: started
+    Preparing wheel metadata: finished with status 'done'
+Collecting ensure==1.0.2
+  Downloading ensure-1.0.2-py2.py3-none-any.whl (15 kB)
+Collecting py-youtube==1.1.7
+  Downloading py_youtube-1.1.7-py3-none-any.whl (10 kB)
+Requirement already satisfied: six>=1.11.0 in ./.tox/python3.8/lib/python3.8/site-packages (from ensure==1.0.2->databaseautomation==0.0.3) (1.16.0)
+Building wheels for collected packages: databaseautomation
+  Building wheel for databaseautomation (PEP 517): started
+  Building wheel for databaseautomation (PEP 517): finished with status 'done'
+  Created wheel for databaseautomation: filename=databaseautomation-0.0.3-py3-none-any.whl size=3052 sha256=34b80a5bdc40855818486558671803e66e08c34fde2502fb78058576b2016bef
+  Stored in directory: /home/ac/.cache/pip/wheels/be/9c/4d/229dd1cc1db0caa8ac58ea20bdb9300da180b6b1d53f29b122
+Successfully built databaseautomation
+Installing collected packages: ensure, py-youtube, databaseautomation
+  Attempting uninstall: ensure
+    Found existing installation: ensure 1.0.4
+    Uninstalling ensure-1.0.4:
+      Successfully uninstalled ensure-1.0.4
+Successfully installed databaseautomation-0.0.3 ensure-1.0.2 py-youtube-1.1.7
